@@ -1,0 +1,20 @@
+/* Created by: Ms Raffin
+* Created on: Feb 2022
+* This CSS file defines the style for more_style.html
+* ICS2O-Unit1-04-HTML-CSS
+*/
+
+body {
+  background-color: MediumOrchid;
+}
+
+h1 {
+  background-color: rgb(199, 232, 18);
+  color: hsl(0,0%, 0%);
+  padding: 40px;
+  text-align: center;
+}
+
+p {
+  background-color: #23C9D6;
+}
