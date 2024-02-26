@@ -1,41 +1,4 @@
-###############################################
+[![GitHub's Super Linter](https://github.com/chris-nj1/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/chris-nj1/actions)
 
-# Run GitHub's Super Linter against code base #
 
-###############################################
-
----
-
-name: GitHub's Super Linter
-
-on: push
-
-jobs:
-
- run-linters:
-
-   name: GitHub's Super Linter
-
-   runs-on: ubuntu-latest
-
-   steps:
-
-     - name: Check out Git repository
-
-       uses: actions/checkout@master
-
-     - name: Run GitHub Super Linter
-
-       uses: github/super-linter@main
-
-       env:
-
-         VALIDATE_ALL_CODEBASE: true
-
-         VALIDATE_JAVASCRIPT_STANDARD: false
-
-         VALIDATE_JSCPD: false
-
-         DEFAULT_BRANCH: main
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+[![Run on Repl.it](https://repl.it/badge/github/chris-nj1)](https://repl.it/github/chris-nj1)
